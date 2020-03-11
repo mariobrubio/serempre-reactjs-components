@@ -2,8 +2,8 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { darken, rgba } from 'polished';
-import { color, typography } from './shared/styles';
-import { easing } from './shared/animation';
+import { color, typography } from '../../shared/styles';
+import { easing } from '../../shared/animation';
 
 const Text = styled.span`
   display: inline-block;
